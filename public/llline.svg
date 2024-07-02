@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="183 194 214 10">
+  <path d="M183.64587526350113 200.3279002904002C183.64587526350113 200.3279002904002 223.05804567365738 200.3279002904002 223.05804567365738 200.3279002904002C223.05804567365738 200.3279002904002 307.2567761424074 203.9108318089549 307.2567761424074 203.9108318089549C307.2567761424074 203.9108318089549 396.829926777173 194.05778920641583 396.829926777173 194.05778920641583" fill="none" stroke-width="12" stroke="url(&quot;#SvgjsLinearGradient1000&quot;)" stroke-linecap="round" stroke-dasharray="0 0" stroke-opacity="1" transform="matrix(0.9950062500000001,-1.2185312191941112e-16,1.2185312191941115e-16,0.9950062500000002,113.0029303133964,2.00937154431341)">
+  </path>
+  <defs>
+    <linearGradient id="SvgjsLinearGradient1000">
+      <stop stop-color="hsl(105, 69%, 40%)" offset="0"></stop>
+      <stop stop-color="hsl(105, 69%, 60%)" offset="1"></stop>
+    </linearGradient>
+  </defs>
+</svg>
