@@ -87,7 +87,7 @@ const items = [
     icon: <MdBrokenImage className="h-4 w-4 text-neutral-500" />,
   },
   {
-    link: "https://github.com/yeabnoah/hms",
+    link: "https://github.com/yeabnoah/hyland",
     title: "Ginosis Desktop App",
     description:
       "a Desktop app designed to help students in their studies, lofi, integrated Reader, ai support, time table and todos, vision board, video player and others.",

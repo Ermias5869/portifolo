@@ -11,7 +11,7 @@ function Experience() {
     {
       title: "Mobile Developer",
       description:
-        "worked as a mobile developer for a startup called explore. worked on developing a mobile application and integration with the Firebase backend and so ",
+        "I worked as a mobile developer for a startup called Explore, focusing on developing a mobile application and integrating it with the Firebase backend.",
       content: (
         <div className="border-green-500 border-b-2 p-2 rounded-md shadow-b-lg shadow-green-500 ml-20 mt-14 flex items-center justify-center">
           <div>
@@ -28,7 +28,7 @@ function Experience() {
     {
       title: "Full stack Developer",
       description:
-        "worked as a full stack web and mobile developer .. built a full stack anonymous transaction app for indevidual client. the project included 3 mobile apps for sender reciver and super and also admin dashboard.",
+        "I worked as a full-stack web and mobile developer, building a full-stack anonymous transaction app for an individual client. The project included three mobile apps for sender, receiver, and supervisor, as well as an admin dashboard.",
       content: (
         <div className="border-green-500 border-b-2 p-2 rounded-md shadow-b-lg shadow-green-500 ml-20 mt-14 flex items-center justify-center">
           <div>
@@ -47,7 +47,7 @@ function Experience() {
     {
       title: "Full stack Developer",
       description:
-        "worked as a full stack web and mobile developer .. built a full stack anonymous transaction app for indevidual client. the project included 3 mobile apps for sender reciver and super and also admin dashboard.",
+        "I worked as a full-stack web and mobile developer, building a comprehensive anonymous transaction app for an individual client. The project encompassed three mobile apps for sender, receiver, and supervisor, along with an admin dashboard.",
       content: (
         <div className="border-green-500 border-b-2 p-2 rounded-md shadow-b-lg shadow-green-500 ml-20 mt-14 flex items-center justify-center">
           <div>
