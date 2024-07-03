@@ -34,7 +34,7 @@ function Navbar() {
     {
       name: "personal",
       link: "https://x.com/technerd556",
-      icon: TbWorld,
+      icon: SiX,
     },
     {
       name: "linkedin",
