@@ -7,7 +7,7 @@ import { AiOutlineColumnWidth } from "react-icons/ai";
 import Image from "next/image";
 import myspace from "../../../public/myspace.png";
 import anon from "../../../public/anonTransaction.png";
-import hms from "../../../public/hms.png";
+import hms from "../../../public/Ginosis.png";
 import xplor from "../../../public/xplore.png";
 import nerdspace from "../../../public/nerdspace.png";
 import "../../globals.css";
@@ -87,10 +87,10 @@ const items = [
     icon: <MdBrokenImage className="h-4 w-4 text-neutral-500" />,
   },
   {
-    link: "https://hms-navy-eight.vercel.app",
-    title: "Hospital Managment App",
+    link: "https://github.com/yeabnoah/hms",
+    title: "Ginosis Desktop App",
     description:
-      "a web app designed to help hospitals and ministy of health controll overall activities of hospital,doctors, pharmacies and others.",
+      "a Desktop app designed to help students in their studies, lofi, integrated Reader, ai support, time table and todos, vision board, video player and others.",
     header: <Hms />,
     icon: <FaSignature className="h-4 w-4 text-neutral-500" />,
   },
