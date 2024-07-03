@@ -96,3 +96,10 @@
   );
   background-size: 15px 15px; /* Adjust the size of the grid dots */
 }
+
+.custom-background {
+  background-image: url("../public/nerdspace.png");
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}

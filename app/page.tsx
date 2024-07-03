@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Navbar from "./(home)/components/navbar";
 import Hero from "./(home)/components/hero";
-import Stack from "./(projects)/component/components/stack";
+import Stack from "./(project)/component/stack";
 import { CardHoverEffectDemo } from "./(projects)/component/components/techStack";
 import "./globals.css"; // Ensure to import the global styles
 import Terminal from "./(projects)/component/components/terminal";
 import Framework from "./(projects)/component/components/framework";
 import { Project } from "./(project)/component/project";
+import Experience from "./(project)/component/stack";
+import Footer from "./(footer)/components/footer";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
       <section className=" mt-32">
         <Framework />
         <Project />
+        <Experience />
+        <Footer />
       </section>
     </div>
   );

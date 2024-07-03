@@ -22,9 +22,9 @@ import nextjs from "../../../../public/icons/next-js-icon-logo-EE302D5DBD-seeklo
 
 function Framework() {
   return (
-    <div className=" flex justify-center items-center">
+    <div className=" flex justify-center items-center mt-48">
       <div>
-        <h2 className=" text-2xl text-center font-semibold text-green-500">
+        <h2 className=" underline text-2xl text-center font-semibold text-green-500">
           Stacks and Frameworks
         </h2>
         <div className=" flex mt-10 mb-32 gap-5 items-center mx-auto flex-wrap w-[60%] justify-center">

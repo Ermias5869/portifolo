@@ -16,37 +16,37 @@ export const projects = [
   {
     title: "Javascript",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "I leverage JavaScript to create dynamic web experiences and interactive user interfaces, enhancing the functionality of websites and web applications.",
     link: "/icons/javascript.svg",
   },
   {
     title: "Typescript",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, ",
+      "With TypeScript, I ensure robust and maintainable code by adding static types to JavaScript, improving scalability and reducing errors in complex projects.",
     link: "/icons/typescript.svg",
   },
   {
     title: "Python",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "Python is my go-to for scripting, data analysis, and web development, utilizing frameworks like Django and Flask to build powerful and scalable applications.",
     link: "/icons/python.svg",
   },
   {
     title: "Php",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "/icons/c++.svg",
+      "I use PHP to develop robust server-side applications, leveraging its compatibility with databases and flexibility in web development.",
+    link: "/icons/php.png",
   },
   {
     title: "Go lang",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "Golang empowers me to build efficient and scalable applications, particularly in concurrent environments and microservices architecture.",
     link: "/icons/go.svg",
   },
   {
     title: "Microsoft",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer ",
-    link: "/icons/php.png",
+      "or high-performance and system-level programming needs, I rely on C++ to create software that demands precise control over hardware resources and complex computations.",
+    link: "/icons/c++.svg",
   },
 ];
