@@ -1,44 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import profile from "../../../public/photo_2024-06-21_12-27-49.jpg";
-import {
-  SiGithub,
-  SiInternetarchive,
-  SiLinkedin,
-  SiTelegram,
-  SiX,
-} from "react-icons/si";
-import { TbWorld } from "react-icons/tb";
+import profile from "../../../public/profile.png";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 import Link from "next/link";
 import "./styles.css";
-import line from "../../../public/llline.svg";
 
 function Navbar() {
   const socialMediaLinks = [
     {
-      name: "telegram",
-      link: "https://t.me/selfmadecoder",
-      icon: SiTelegram,
+      name: "Github",
+      link: "https://github.com/Ermias5869",
+      icon: SiGithub,
     },
 
     {
-      name: "Github",
-      link: "https://github.com/yeabnoah",
-      icon: SiGithub,
-    },
-    {
-      name: "X",
-      link: "https://x.com/technerd345",
-      icon: SiTelegram,
-    },
-    {
-      name: "personal",
-      link: "https://x.com/technerd556",
-      icon: SiX,
-    },
-    {
       name: "linkedin",
-      link: "https://www.linkedin.com/in/yeabsra-ashebir-tech-nerd-8a3a80267/",
+      link: "https://www.linkedin.com/in/ermias-amare/",
       icon: SiLinkedin,
     },
   ];
@@ -52,10 +29,10 @@ function Navbar() {
           src={profile}
         />
         <h2
-          className=" text-xl text-center text-green-500 font-semibold selection:text-black  
-        selection:bg-green-500 mb-2 hover:text-green-500"
+          className=" text-xl text-center text-blue-500 font-semibold selection:text-black  
+        selection:bg-blue-500 mb-2 hover:text-blue-500"
         >
-          yeabsra Ashebir | Tech Nerd 📟
+          ermias amare 💻
         </h2>
 
         <div
@@ -65,7 +42,7 @@ function Navbar() {
           {socialMediaLinks.map((link, index) => {
             return (
               <Link
-                className=" hover:scale-150 hover:text-green-500 transition-all text-green-500"
+                className=" hover:scale-150 hover:text-blue-500 transition-all text-blue-500"
                 key={index}
                 href={link.link}
               >

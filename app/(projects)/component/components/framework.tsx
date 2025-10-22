@@ -24,15 +24,12 @@ function Framework() {
   return (
     <div className=" flex justify-center items-center mt-48">
       <div>
-        <h2 className=" underline text-2xl text-center font-semibold text-green-500">
+        <h2 className=" underline text-2xl text-center font-semibold text-blue-500">
           Stacks and Frameworks
         </h2>
         <div className=" flex mt-10 mb-32 gap-5 items-center mx-auto flex-wrap w-[60%] justify-center">
           <div className=" hover:scale-150 transition-all">
             <Image src={react} className="w-16" alt="icon_name" />
-          </div>
-          <div className=" hover:scale-150 transition-all">
-            <Image src={laravel} className="w-16" alt="icon_name" />
           </div>
           <div className=" hover:scale-150 transition-all">
             <Image src={nodejs} className=" w-16" alt="icon_name" />
@@ -54,9 +51,6 @@ function Framework() {
           </div>
           <div className=" hover:scale-150 transition-all">
             <Image src={reactnative} className=" w-12" alt="icon_name" />
-          </div>
-          <div className=" hover:scale-150 transition-all">
-            <Image src={hono} className="w-12" alt="icon_name" />
           </div>
           <div className=" hover:scale-150 transition-all">
             <Image src={expo} className=" w-12" alt="icon_name" />

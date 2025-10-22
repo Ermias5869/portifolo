@@ -3,15 +3,15 @@ import React from "react";
 function Terminal() {
   return (
     <div className=" mx-auto w-[30%] mb-10">
-      <div className="bg-transparent border border-green-500 grid grid-cols-6 gap-2 rounded-xl p-2 text-sm">
-        <h1 className="text-center text-green-600 text-xl font-bold col-span-6">
+      <div className="bg-transparent border border-blue-500 grid grid-cols-6 gap-2 rounded-xl p-2 text-sm">
+        <h1 className="text-center text-blue-600 text-xl font-bold col-span-6">
           Send Feedback
         </h1>
         <textarea
-          className="bg-transparent text-green-300 h-28 placeholder:text-slate-300 placeholder:opacity-50 border border-green-600 col-span-6 resize-none outline-none rounded-lg p-2 duration-300 focus:border-green-300"
+          className="bg-transparent text-blue-300 h-28 placeholder:text-slate-300 placeholder:opacity-50 border border-blue-600 col-span-6 resize-none outline-none rounded-lg p-2 duration-300 focus:border-blue-300"
           placeholder="Your feedback..."
         ></textarea>
-        <button className=" col-span-1 flex justify-center items-center rounded-lg p-2 duration-300 bg-translate hover:border-slate-300 focus:fill-blue-200 focus:bg-blue-600 border border-green-500">
+        <button className=" col-span-1 flex justify-center items-center rounded-lg p-2 duration-300 bg-translate hover:border-slate-300 focus:fill-blue-200 focus:bg-blue-600 border border-blue-500">
           <svg
             viewBox="0 0 512 512"
             height="20px"

@@ -5,7 +5,7 @@ import { HoverEffect } from "@/components/ui/card-hover-effect";
 export function CardHoverEffectDemo() {
   return (
     <div className="max-w-5xl mx-auto my-20 px-5 mt-20">
-      <h2 className=" text-green-500 text-2xl text-center font-semibold">
+      <h2 className=" text-blue-500 text-2xl text-center font-semibold">
         Programming Languages
       </h2>
       <HoverEffect items={projects} />
@@ -31,22 +31,23 @@ export const projects = [
       "Python is my go-to for scripting, data analysis, and web development, utilizing frameworks like Django and Flask to build powerful and scalable applications.",
     link: "/icons/python.svg",
   },
+
   {
-    title: "Php",
+    title: "Sql",
     description:
-      "I use PHP to develop robust server-side applications, leveraging its compatibility with databases and flexibility in web development.",
-    link: "/icons/php.png",
+      "SQL is essential for managing and querying relational databases, allowing me to efficiently handle data and perform complex queries.",
+    link: "/icons/sql.png",
   },
   {
-    title: "Go lang",
+    title: "Dart",
     description:
-      "Golang empowers me to build efficient and scalable applications, particularly in concurrent environments and microservices architecture.",
-    link: "/icons/go.svg",
+      "I use Dart to build high-performance mobile apps with Flutter, taking advantage of its fast compile times and expressive syntax to deliver smooth, cross-platform experiences.",
+    link: "/icons/dart.svg",
   },
   {
-    title: "Microsoft",
+    title: "Java",
     description:
-      "or high-performance and system-level programming needs, I rely on C++ to create software that demands precise control over hardware resources and complex computations.",
-    link: "/icons/c++.svg",
+      "With Java, I build robust backend systems and Android applications, leveraging its strong ecosystem and scalability for reliable, enterprise-grade solutions.",
+    link: "/icons/java.svg",
   },
 ];

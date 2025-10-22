@@ -2,12 +2,8 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
-import javascript from "../../public/icons/javascript (1).png";
+
 import Image from "next/image";
-import typescript from "../../public/icons/typescript.png";
-import reactjs from "../../public/icons/react.png";
-import nodejs from "../../public/icons/nodejs.png";
-import { url } from "inspector";
 
 export const HoverEffect = ({
   items,
@@ -40,7 +36,7 @@ export const HoverEffect = ({
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className=" absolute inset-0 h-full w-full bg-neutral-200 dark:bg-green-500/[0.8]  rounded-3xl"
+                className=" absolute inset-0 h-full w-full bg-neutral-200 dark:bg-blue-500/[0.8]  rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
               />
@@ -73,7 +69,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-md h-full w-full border-2 shadow-xs shadow-green-500  overflow-hidden  bg-transparent  border-transparent dark:border-green-500/[0.2] group-hover:border-green-500 relative z-20",
+        "rounded-md h-full w-full border-2 shadow-xs shadow-blue-500  overflow-hidden  bg-transparent  border-transparent dark:border-blue-500/[0.2] group-hover:border-blue-500 relative z-20",
         className
       )}
     >
@@ -106,7 +102,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "mt-3 text-green-500  tracking-wide  mx-2 text-sm group-hover:text-green-500",
+        "mt-3 text-blue-500  tracking-wide  mx-2 text-sm group-hover:text-blue-500",
         className
       )}
     >
